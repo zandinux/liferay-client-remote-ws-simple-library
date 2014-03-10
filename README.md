@@ -5,7 +5,6 @@ Recently I try to find a way to use easy the remote web services of Liferay CE 6
 
 This library it could be imported on a java project and you can initialize with liferay.properties (included to the new project that you will create).
 
-=================================================================================================
 
 
 liferay.properties
