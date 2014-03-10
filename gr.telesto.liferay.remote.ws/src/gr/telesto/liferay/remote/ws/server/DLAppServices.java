@@ -34,36 +34,6 @@ public class DLAppServices {
 	
 	static ServiceContext serviceContext = new ServiceContext();
 	
-	static long userId = 0;
-	static long groupId = 0;
-
-	
-	/**
-	 * Test
-	 * @param args
-	 * @throws RemoteException
-	 */
-	public static void main(String[] args) throws RemoteException {
-		
-		ResourceBundle resourceBundle = ResourceBundle.getBundle("liferay");
-		
-		LiferayProperties.initResourceBundle(resourceBundle);
-		
-		Services._initServices();
-		
-		Services._startUserService();
-		Services._startCompanyService();
-		Services._startGroupService();
-		Services._startDLAppService();
-		
-		userId = Services.getUserId();
-		groupId = Services.getGroupId();
-		
-		System.out.println(groupId);
-		
-	}
-	
-	
 	public static void createFolder(long folderId, String name, String description){
 		
 		try {
