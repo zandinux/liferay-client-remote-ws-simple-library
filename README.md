@@ -8,11 +8,17 @@ This library it could be imported on a java project and you can initialize with 
 The default parameters that you can set are the following:
 
 LIFERAY_PUBLISH_SITE = Guest
+
 LIFERAY_PROTOCOL = http://
-LIFERAY_DN = <Domain Name>
+
+LIFERAY_DN = <Domain Name or IP>
+
 LIFERAY_TCP_PORT = <Port>
+
 LIFERAY_AXIS_PATH = /api/secure/axis/
+
 LIFERAY_USER_NAME = <Screen Name or Email>
+
 LIFERAY_USER_PASSWORD = <Password>
 
 
