@@ -7,6 +7,10 @@ This library it could be imported on a java project and you can initialize with 
 
 =================================================================================================
 
+
+liferay.properties
+=================================================================================================
+
 The default parameters that you can set are the following:
 
 LIFERAY_PUBLISH_SITE = Guest
@@ -22,14 +26,16 @@ LIFERAY_AXIS_PATH = /api/secure/axis/
 LIFERAY_USER_NAME = <Screen Name or Email>
 
 LIFERAY_USER_PASSWORD = <Password>
-=================================================================================================
 
-First initialize propertie by call:
+
+1) First initialize propertie by call:
+=================================================================================================
 
 ResourceBundle resourceBundle = ResourceBundle.getBundle("liferay");
 
 LiferayProperties.initResourceBundle(resourceBundle);
 
+2) Available Services
 =================================================================================================
 
 From file Services.java you can call:
