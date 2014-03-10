@@ -4,11 +4,13 @@ package gr.telesto.liferay.remote.ws.server;
 import gr.telesto.liferay.Util;
 import gr.telesto.liferay.pojo.File;
 import gr.telesto.liferay.pojo.Folder;
+import gr.telesto.liferay.remote.ws.LiferayProperties;
 
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.ResourceBundle;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,6 +45,10 @@ public class DLAppServices {
 	 */
 	public static void main(String[] args) throws RemoteException {
 		
+		ResourceBundle resourceBundle = ResourceBundle.getBundle("liferay");
+		
+		LiferayProperties.initResourceBundle(resourceBundle);
+		
 		Services._initServices();
 		
 		Services._startUserService();
@@ -54,11 +60,6 @@ public class DLAppServices {
 		groupId = Services.getGroupId();
 		
 		System.out.println(groupId);
-		
-		getFileList(LIFERAY_DEFAULT_FOLDER_ID);
-		
-		//createFolder(LIFERAY_FOLDER_ID,"Test final 3", "");
-		//updateFolder(12105, "XAXAXA", "");
 		
 	}
 	

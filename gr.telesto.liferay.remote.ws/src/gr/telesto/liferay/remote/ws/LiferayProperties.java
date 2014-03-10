@@ -18,6 +18,8 @@ public class LiferayProperties {
 	public static void initResourceBundle(ResourceBundle resourceBundle)
 	{
 		properties = resourceBundle;
+		
+		LiferayProperties.map = convertResourceBundleToMap(properties);
 	}
 
 	public static String[] getArrayProperties(String path)
