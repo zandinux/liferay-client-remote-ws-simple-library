@@ -16,15 +16,15 @@ LIFERAY_PUBLISH_SITE = Guest
 
 LIFERAY_PROTOCOL = http://
 
-LIFERAY_DN = <Domain Name or IP>
+LIFERAY_DN = Domain Name or IP
 
-LIFERAY_TCP_PORT = <Port>
+LIFERAY_TCP_PORT = Port
 
 LIFERAY_AXIS_PATH = /api/secure/axis/
 
-LIFERAY_USER_NAME = <Screen Name or Email>
+LIFERAY_USER_NAME = Screen Name or Email
 
-LIFERAY_USER_PASSWORD = <Password>
+LIFERAY_USER_PASSWORD = Password
 
 
 1) First initialize propertie by call:
