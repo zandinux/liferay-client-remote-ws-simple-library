@@ -1,7 +1,7 @@
 liferay-client-remote-ws-simple-library
 =======================================
 
-Recently I tried to find a way to use easily the remote web services of Liferay CE 6.1.2 GA3, so I found a solution by creating a VERY SIMPLE LIBRARY to implement to my project that I wanted to manage the Document Library.
+Recently I tried to find a way to use easily the remote web services of Liferay CE 6.1.2 GA3, so I found a solution by creating a VERY SIMPLE LIBRARY to import on my project that I wanted to manage the Document Library.
 
 This library could be imported on a java project and you can initialize with liferay.properties (included to the new project that you will create).
 
