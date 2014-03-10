@@ -22,7 +22,7 @@ ResourceBundle resourceBundle = ResourceBundle.getBundle("liferay");
 LiferayProperties.initResourceBundle(resourceBundle);
 
 
-From file Services you can call:
+From file Services.java you can call:
 
 Services._initServices(); (Init Services from liferay.properties 
 
