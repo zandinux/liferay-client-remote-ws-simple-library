@@ -45,7 +45,7 @@ public class Services {
 	{
 		Services.LIFERAY_USER_NAME = LiferayProperties.getMap().get("LIFERAY_USER_NAME").toString();
 		Services.LIFERAY_USER_PASSWORD = LiferayProperties.getMap().get("LIFERAY_USER_PASSWORD").toString();
-		
+
 		ConnectionController._setUserCredential();
 		ConnectionController.initUrls();
 	}
