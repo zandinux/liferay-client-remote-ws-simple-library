@@ -1,4 +1,6 @@
+import gr.liferay.Util;
 import gr.liferay.remote.ws.LiferayProperties;
+import gr.liferay.remote.ws.server.DLAppServices;
 import gr.liferay.remote.ws.server.Services;
 
 import java.rmi.RemoteException;
@@ -40,7 +42,7 @@ public class Test {
 		System.out.println("UserID:" + userId);
 
 		System.out.println("GroupID:" + groupId);
-		
+
 	}
 
 }

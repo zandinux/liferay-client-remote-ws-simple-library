@@ -33,7 +33,7 @@ public class Util {
 	static String LIFERAY_DN = LiferayProperties.getMap().get("LIFERAY_DN").toString();
 	static String LIFERAY_AXIS_PATH = LiferayProperties.getMap().get("LIFERAY_AXIS_PATH").toString();
 	
-	static int MAX_FOLDER_NAME_LEGTH = 100;
+	static int MAX_FOLDER_NAME_LEGTH = Integer.valueOf( LiferayProperties.getMap().get("MAX_FOLDER_NAME_LEGTH").toString() );
 	
 	public static URL _getURL(String remoteUser, String password, String serviceName) {	
 			

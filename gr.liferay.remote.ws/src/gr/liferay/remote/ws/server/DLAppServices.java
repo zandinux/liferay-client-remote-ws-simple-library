@@ -41,7 +41,7 @@ public class DLAppServices {
 			// ACTION_PUBLISH 1
 			
 			serviceContext.setWorkflowAction(1);
-			
+			serviceContext.setAddGuestPermissions(true);
 			_folder = Services.getDLAppServiceSoap().addFolder(Services.getGroupId(), folderId, name, description, serviceContext);
 			 
 			System.out.println("Folder Id:" + _folder.getFolderId());
