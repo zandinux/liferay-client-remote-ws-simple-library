@@ -25,6 +25,9 @@ LIFERAY_USER_NAME = Screen Name or Email
 
 LIFERAY_USER_PASSWORD = Password
 
+MAX_FOLDER_NAME_LEGTH = Liferay default DB (DLFolder Table - name length) 
+[Can be change from database manager, accepted for folder name max length is 255]
+
 
 1) First initialize propertie by call:
 =================================================================================================
